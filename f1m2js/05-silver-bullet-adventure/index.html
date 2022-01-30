@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Silver Bullet Adventure</title>
+</head>
+<body>
+    <div id="container">
+        <img id="myImage"src="img/0.jpg" height="600px" alt="foto sb">
+        <div id="myInteraction">
+            <div id="myTitle">rondleiding door de Silver Bullet</div>
+        <input type="text" id="myInput" autocomplete="off">
+        <input type="button" value="voer in" onclick="getInput()">
+        <h3>kies welke richting je op wilt:</h3>
+        <nav>
+            <button id="knopNoord" onclick="goDirection('noord')">Noord</button>
+            <button id="knopWest" onclick="goDirection('west')">West</button><button id="knopOost" onclick="goDirection('oost')">Oost</button>
+            <button id="knopZuid" onclick="goDirection('zuid')">Zuid</button>
+        </nav>
+        <img src="img/map_compass.png" id="mapImage"/>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

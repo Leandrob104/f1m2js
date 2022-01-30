@@ -1,0 +1,13 @@
+#container{
+    background-color: grey;
+    width: 700px;
+    height: 500px;
+    margin: auto;
+}
+button{
+    height: 50px;
+    padding-left: 20px;
+}
+img{
+    padding-bottom: 10px;
+}

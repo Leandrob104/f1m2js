@@ -1,0 +1,14 @@
+body{
+    padding: 5px;
+    margin: 5px;
+}
+.button{
+    background-color: seagreen;
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    color: white;
+}
+.button:hover{
+    background-color: mediumseagreen;
+}
